@@ -1,0 +1,67 @@
+body{
+    background-image: url(./Desktop-Wallpapers-Cool.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    background: cyan;
+}
+table.list{
+    text-align: center;
+    width: 100%;
+}
+td{
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px 10px;
+}
+
+tr:nth-child(even), table.list thead> tr{
+    background-color: gray;
+}
+
+input[type="text"],input[type="number"]{
+    width: 80%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type="submit"],input[type="reset"]{
+   background: #eee;
+   padding: 6px 10px;
+   margin: 15ps 0 10px;
+   display: inline-block;
+   border: none;
+   border-radius: 5px;
+   font-size:1rem ;
+   cursor: pointer;
+   outline: none;
+}
+input[type="submit"]:hover{
+    background: blue;
+}
+input[type="reset"]:hover{
+    background: blue;
+}
+
+button{
+    background: #eee;
+    padding: 6px 10px;
+    margin: 15ps 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    font-size:1rem ;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background: blue;;
+}
